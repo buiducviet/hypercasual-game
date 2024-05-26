@@ -27,4 +27,9 @@ public class ScoreController : MonoBehaviour
         score += value;
         scoreText.text = "Score: " + score;
     }
+    public void ResetScore()
+    {
+        score = 0;
+        scoreText.text = "Score: " + score;
+    }
 }

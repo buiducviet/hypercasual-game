@@ -24,6 +24,10 @@ namespace Platformer.Gameplay
                 model.virtualCamera.m_LookAt = null;
                 // player.collider.enabled = false;
                 player.controlEnabled = false;
+                if (ScoreController.instance != null)
+        	{
+            		ScoreController.instance.ResetScore();
+        	}
 
                 if (player.audioSource && player.ouchAudio)
                     player.audioSource.PlayOneShot(player.ouchAudio);
