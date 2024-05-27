@@ -405,6 +405,7 @@
 "Assets/Scripts/Mechanics/DeathZone.cs"
 "Assets/Scripts/Mechanics/EnemyController.cs"
 "Assets/Scripts/Mechanics/GameController.cs"
+"Assets/Scripts/Mechanics/GameOverController.cs"
 "Assets/Scripts/Mechanics/Health.cs"
 "Assets/Scripts/Mechanics/KinematicObject.cs"
 "Assets/Scripts/Mechanics/PatrolPath.Mover.cs"

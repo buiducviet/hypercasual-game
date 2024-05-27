@@ -1,4 +1,5 @@
 using Platformer.Mechanics;
+using Platformer.UI;
 using UnityEngine;
 
 namespace Platformer.Model
@@ -21,6 +22,8 @@ namespace Platformer.Model
         /// by the user.
         /// </summary>
         public PlayerController player;
+        
+       public MainUIController UI;
 
         /// <summary>
         /// The spawn point in the scene.

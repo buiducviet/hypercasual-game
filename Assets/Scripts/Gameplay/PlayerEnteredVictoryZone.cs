@@ -1,6 +1,7 @@
 using Platformer.Core;
 using Platformer.Mechanics;
 using Platformer.Model;
+using UnityEngine.SceneManagement;
 
 namespace Platformer.Gameplay
 {
@@ -19,6 +20,19 @@ namespace Platformer.Gameplay
         {
             model.player.animator.SetTrigger("victory");
             model.player.controlEnabled = false;
+            
+            float delay = 1.0f;
+            Simulation.Schedule<LoadNextLevel>(delay);
+            
         }
     }
+    
+    public class LoadNextLevel : Simulation.Event<LoadNextLevel>
+    {
+        public override void Execute()
+        {
+            SceneManager.LoadScene("Level 2");
+        }
+    }
+    
 }
