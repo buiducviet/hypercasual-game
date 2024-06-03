@@ -408,6 +408,7 @@
 "Assets/Scripts/Mechanics/GameOverController.cs"
 "Assets/Scripts/Mechanics/Health.cs"
 "Assets/Scripts/Mechanics/KinematicObject.cs"
+"Assets/Scripts/Mechanics/Message.cs"
 "Assets/Scripts/Mechanics/PatrolPath.Mover.cs"
 "Assets/Scripts/Mechanics/PatrolPath.cs"
 "Assets/Scripts/Mechanics/PlayAudioClip.cs"
